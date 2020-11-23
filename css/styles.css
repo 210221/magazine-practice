@@ -1,0 +1,182 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  margin: 0;
+  font-size: 0.875rem;
+  color: #2a2a2a;
+}
+
+header {
+  height: 100vh;
+  background-image: url('../img/mainvisual.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin-bottom: 80px;
+  position: relative;
+  }
+
+
+
+
+/* header .container {
+  position: relative;
+  margin: 0;
+} */
+
+header .logo {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+main {
+  text-align: center;
+  display: block;
+}
+
+.magazine {
+  padding: 0 5%;
+  margin: 0 auto 80px;
+  max-width: 1200px;
+}
+
+.sec-title {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.arnew {
+  position: relative;
+  margin-top: 40px;
+}
+
+.arnew img {
+  max-width: 100%;
+}
+
+.arnew a {
+  text-decoration: none;
+}
+
+.arnew .text {
+  width: 100%;
+  max-width: 290px;
+  color: #fff;
+  font-weight: bold;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 15px 0;
+  margin: 0 auto;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+}
+
+.travel {
+  background-image: url(../img/travel.jpg);
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 80px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #2a2a2a;
+  border: solid 1px #2a2a2a;
+  font-size: 0.750rem;
+  padding: 14px 36px;
+  margin-top: 30px;
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.catalog-antique {
+  padding: 0 5%;
+  margin-bottom: 30px;
+}
+
+.catalog-antique img {
+  width: 100%;
+}
+
+.catalog-antique h1{
+  margin-top: 60px;
+}
+
+.catalog-antique p {
+  text-align: left;
+  padding-top: 15px;
+}
+
+.sub {
+  padding: 30px 5% 30px;
+  background-color: rgb(51, 45, 45);
+  color: rgb(221, 220, 220);
+}
+
+.sub div{
+  text-align: left;
+}
+
+.sub ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sub a, div {
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+  background-color: white;
+  font-size: 12px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+@media (min-width: 900px) {
+  .container1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .container1 .arnew {
+    width: 49%;
+    /* position: relative; */
+  }
+
+  .catalog-antique {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .catalog-antique img {
+    width: 48%;
+  }
+
+  .items {
+    width: 48%;
+  }
+
+  .sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sub a, .sub div {
+    width: 33%;
+    line-height: 2;
+  }
+
+}
